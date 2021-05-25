@@ -77,6 +77,11 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+
+    &:hover {
+        transition: all 0.5s ease-in-out;
+        background: ${({scrollNav}) => (scrollNav ? '#bfbfbf' : 'transparent')};
+    }
 `;
 
 export const NavLinks = styled(LinkS)`

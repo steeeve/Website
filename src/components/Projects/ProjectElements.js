@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-    height: 2100px;         // MAKE TALLER/SHORTER                 
+    height: 2400px;         // MAKE TALLER/SHORTER                 
     display: flex;
     flex-direction: column;
     justify content: center;

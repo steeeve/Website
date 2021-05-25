@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
+                        <NavItem scrollNav={scrollNav}>
                             <NavLinks to="about"
                             smooth={true}
                             duration={500}
@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
                             scrollNav={scrollNav}
                             >About Me</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        <NavItem scrollNav={scrollNav}>
                             <NavLinks to="resume"
                             smooth={true}
                             duration={500}
@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
                             scrollNav={scrollNav}
                             >Resume</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        <NavItem scrollNav={scrollNav}>
                             <NavLinks to="projects"
                             smooth={true}
                             duration={500}

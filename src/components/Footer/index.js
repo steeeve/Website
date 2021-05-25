@@ -9,8 +9,8 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social</FooterLinkTitle>
-                            <FooterLink to='/'>Github</FooterLink>
-                            <FooterLink to='/'>LinkedIn</FooterLink>
+                            <FooterLink href='https://github.com/steeeve'>Github</FooterLink>
+                            <FooterLink href='https://www.linkedin.com/in/stevenchangarang/'>LinkedIn</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
 
