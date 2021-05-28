@@ -1,0 +1,7 @@
+.video-js {
+    border-radius: 10px;
+    border: 10px solid black;
+    border-left: 11px solid black;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
