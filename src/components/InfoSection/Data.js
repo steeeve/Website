@@ -11,7 +11,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'Hello world!',
     headline: '',
-    description: 'im a developer who likes to skateboard and catch fish!',
+    description: 'im a student and developer who likes to skateboard and catch fish!',
     showButt: true,
     buttonLabel: 'Some more about me!',
     imgStart: true,
