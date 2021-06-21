@@ -3,25 +3,24 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: ${({showButt}) => (showButt ? 'red' : 'blue')};
     background: ${({lightBg}) => (lightBg ? '#f1f1f1' : '#1f1f1f')};
-    height: 700px;
-
-    @media screen and (max-width: 768px) {
-        padding: 100px 0;
-        height: 1200px;
-    }
+    height: 100%
 
 `;
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 600px;
+    height: 700px;
     width: 100%;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     // justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: 1200px;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -36,6 +35,7 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
+    margin-top: 15px;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
@@ -50,8 +50,8 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width: 700px;
-    padding-top: 0;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 `;
 
 export const TopLine = styled.p`

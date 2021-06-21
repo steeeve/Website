@@ -14,7 +14,6 @@ export const ProjectContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         height: 3000px; 
-        background: red;
     }
 `;
 

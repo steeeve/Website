@@ -8,12 +8,24 @@ export const ResumeContainer = styled.div`
     align-items: center;
     background: #f1f1f1;
 
-    @media screen and (max-width: 768px) {
-        height: 1600px;
+    @media screen and (max-width: 800px) {
+        height: 1400px;
     }
 
-    @media screen and (max-width: 480px) {
-        height: 1800px;
+    @media screen and (max-width: 768px) {
+        height: 1500px;
+    }
+
+    @media screen and (max-width: 700px) {
+        height: 1500px;
+    }
+
+    @media screen and (max-width: 600px) {
+        height: 1550px;
+    }
+
+    @media screen and (max-width: 540px) {
+        height: 1650px;
     }
 `;
 
