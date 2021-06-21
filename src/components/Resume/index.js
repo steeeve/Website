@@ -6,8 +6,8 @@ import {ResumeContainer, ResumeH1, ResumeWrapper, TextWrapper, Headline, SmallTi
 const Resume = () => {
     return (
         <ResumeContainer id="resume">
-            <ResumeH1>Resume</ResumeH1>
             <ResumeWrapper>
+                <ResumeH1>Resume</ResumeH1>
 
                 <TextWrapper>
                     <Headline>Education</Headline>

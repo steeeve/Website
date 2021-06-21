@@ -1,37 +1,17 @@
 import styled from 'styled-components';
 
 export const ResumeContainer = styled.div`
-    height: 1400px;
+    height: 100%; 
     display: flex;
     flex-direction: column;
     justify content: center;
     align-items: center;
     background: #f1f1f1;
-
-    @media screen and (max-width: 800px) {
-        height: 1400px;
-    }
-
-    @media screen and (max-width: 768px) {
-        height: 1500px;
-    }
-
-    @media screen and (max-width: 700px) {
-        height: 1500px;
-    }
-
-    @media screen and (max-width: 600px) {
-        height: 1550px;
-    }
-
-    @media screen and (max-width: 540px) {
-        height: 1650px;
-    }
 `;
 
 
 export const ResumeWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 1400px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
@@ -57,6 +37,8 @@ export const ResumeH1 = styled.h1`
     font-size: 2.5rem;
     color: #000;
     margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
 
     @media screen and (max-wifth: 480px) {
         font-size: 2rem;
