@@ -35,7 +35,36 @@ const Resume = () => {
                 </TextWrapper>
 
                 <TextWrapper>
+                    
                     <Headline>Work Experience</Headline>
+                    <SmallTitle>National Research Council Canada, Waterloo, ON 2020-2021</SmallTitle>
+                    <SmallTitleDesc>Undergraduate Research Assistant</SmallTitleDesc>
+                    <CourseworkWrapper>
+
+                        <CourseworkItem>Implemented scripts for large scale collection of novel online-handwriting data using MetaMotionS sensors and Raspberry pi, gathered over 15000 letter recordings</CourseworkItem>
+                        <CourseworkItem>Designed pipelines using Python + TsFresh facilitating feature selection and transformation of time series data from the public OnHW-chars dataset, improving results by ~20%</CourseworkItem>
+                        <CourseworkItem>Predicted user text input with 70% accuracy using KNN and metric learning, outperforming previous results of 34% accuracy on the dataset (OnHW-chars). Similar results for SVM, random forest, regression</CourseworkItem>
+                        <CourseworkItem>Best results obtained from InceptionTime, 85% average accuracy over 5-fold cross validation</CourseworkItem>
+                        <CourseworkItem>Results to be published along with a novel dataset featuring data collected using MetaMotionS </CourseworkItem>
+
+                    </CourseworkWrapper>
+                </TextWrapper>
+
+                <TextWrapper>
+                    
+                    <SmallTitle>Steven Chang Tutoring, Waterloo, ON 2020-2021</SmallTitle>
+                    <SmallTitleDesc>Founder</SmallTitleDesc>
+                    <CourseworkWrapper>
+
+                        <CourseworkItem>Developed a proprietary curriculum using Python and Pygame which introduces students to Python</CourseworkItem>
+                        <CourseworkItem>Introduced higher level concepts such as class inheritance in an easy to digest manner</CourseworkItem>
+                        <CourseworkItem>Created fizzbuzz style homework questions to enrich learning</CourseworkItem>
+
+                    </CourseworkWrapper>
+                </TextWrapper>
+
+                <TextWrapper>
+                    
                     <SmallTitle>Code Ninjas, Waterloo, ON 2019-2021</SmallTitle>
                     <SmallTitleDesc>Lead Code Sensei</SmallTitleDesc>
                     <CourseworkWrapper>
