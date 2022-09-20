@@ -45,7 +45,7 @@ const Resume = () => {
                         <CourseworkItem>Designed pipelines using Python + TsFresh facilitating feature selection and transformation of time series data from the public OnHW-chars dataset, improving results by ~20%</CourseworkItem>
                         <CourseworkItem>Predicted user text input with 70% accuracy using KNN and metric learning, outperforming previous results of 34% accuracy on the dataset (OnHW-chars). Similar results for SVM, random forest, regression</CourseworkItem>
                         <CourseworkItem>Best results obtained from InceptionTime, 85% average accuracy over 5-fold cross validation</CourseworkItem>
-                        <CourseworkItem>Results to be published along with a novel dataset featuring data collected using MetaMotionS </CourseworkItem>
+                        <CourseworkItem>Results to be published along with a novel dataset featuring data collected using MetaMotionS, arxiv link: <a href="https://arxiv.org/abs/2209.09102">click here</a> </CourseworkItem>
 
                     </CourseworkWrapper>
                 </TextWrapper>
