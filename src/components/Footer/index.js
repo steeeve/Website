@@ -18,7 +18,7 @@ const Footer = () => {
                         <WebsiteRights>
                             <WebsiteRightsWrap>
                                 <Rights>
-                                    Steven Chang © 2025
+                                    Steven Chang © June 2025 
                                 </Rights>
                             </WebsiteRightsWrap>
                         </WebsiteRights>
