@@ -1,6 +1,5 @@
-import React from 'react';
 import InfoSection from '../../components/InfoSection';
-import { ProjectObjOne, ProjectObjTwo, ProjectObjThree, ProjectObjFour } from '../../components/InfoSection/Data';
+import { ProjectObjOne, ProjectObjTwo, ProjectObjThree, ProjectObjFour, ProjectObjPaper } from '../../components/InfoSection/Data';
 import {ProjectContainer, ProjectWrapper, ProjectH1, InfoWrapper} from './ProjectElements';
 
 const Projects = () => {
@@ -9,6 +8,11 @@ const Projects = () => {
             <ProjectWrapper>
 
                 <ProjectH1>Projects</ProjectH1>
+
+                <InfoWrapper>
+                    <InfoSection {...ProjectObjPaper}/>
+                </InfoWrapper>
+
                 <InfoWrapper>
                     <InfoSection {...ProjectObjOne}/>
                 </InfoWrapper>

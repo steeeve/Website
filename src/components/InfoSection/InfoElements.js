@@ -92,6 +92,32 @@ export const Subtitle = styled.p`
     }
 `;
 
+export const CustomButton = styled.button`
+  padding: 12px 24px;
+  background-color: #007bff; /* Vibrant blue */
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px;
+  font-weight: 500; /* Medium weight for readability */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+
+  &:active {
+    transform: translateY(0); /* Reset lift on click */
+  }
+
+  &:focus {
+    outline: 2px solid #80bdff; /* Accessible focus state */
+    outline-offset: 2px;
+  }
+`;
+
 export const BtnWrap = styled.div`
     display: ${({showButt}) => (showButt ? 'flex' : 'none')};
     justify-content: flex-start;

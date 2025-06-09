@@ -9,35 +9,27 @@ const Resume = () => {
             <ResumeWrapper>
                 <ResumeH1>Resume</ResumeH1>
 
+                
                 <TextWrapper>
-                    <Headline>Education</Headline>
-                    <SmallTitle>Bachelors - University of Waterloo, Waterloo, ON 2017-2021</SmallTitle>
-                    <SmallTitleDesc>Major: Computational Mathematics, Statistics</SmallTitleDesc>
-                    <SmallTitleDesc>Minor: Computer Science</SmallTitleDesc>
-                    <SmallTitleDesc>Relevant Coursework:</SmallTitleDesc>
+                    <Headline>Work Experience</Headline>
+
+                
+                    <SmallTitle>Misim Modelling Inc., Vancouver, BC 2022-2025</SmallTitle>
+                    <SmallTitleDesc>Analyst</SmallTitleDesc>
                     <CourseworkWrapper>
 
-                        <CourseworkItem>Designing Functional Programs</CourseworkItem>
-                        <CourseworkItem>Algorithm Design and Data Abstraction</CourseworkItem>
-                        <CourseworkItem>Logic and Computation</CourseworkItem>
-                        <CourseworkItem>Object Oriented Software Development</CourseworkItem>
-                        <CourseworkItem>Data Types and Structures</CourseworkItem>
-                        <CourseworkItem>Databases</CourseworkItem>
-                        <CourseworkItem>Symbolic Computation</CourseworkItem>
-                        <CourseworkItem>Applied Linear Models</CourseworkItem>
-                        <CourseworkItem>Sampling and Experimental Design</CourseworkItem>
-                        <CourseworkItem>Forecasting with Time Series</CourseworkItem>
-                        <CourseworkItem>Computational Methods for Differential Equations</CourseworkItem>
-                        <CourseworkItem>Quantum Information Processing</CourseworkItem>
-                        <CourseworkItem>Numeric Computation for Financial Modelling</CourseworkItem>
+                        <CourseworkItem>Developed and conducted analysis of discrete event simulation (DES) models, using Python, Anylogic, and Excel</CourseworkItem>
+                        <CourseworkItem>Upgraded model framework from Arena to Anylogic, enabling a 4-fold decrease in model runtime, and enhancing model accuracy</CourseworkItem>
+                        <CourseworkItem>Collaborated with team members and leads to integrate model features, and brainstorm best paths forward</CourseworkItem>
+                        <CourseworkItem>Designed and implemented rigorous quality assurance protocols on the newly developed model, to validate the model and ensure robust functionality in the upgraded framework</CourseworkItem>
+                        <CourseworkItem>Maintained comprehensive documentation for the framework upgrade, enabling seamless integration of new features</CourseworkItem>
 
                     </CourseworkWrapper>
                 </TextWrapper>
 
                 <TextWrapper>
                     
-                    <Headline>Work Experience</Headline>
-                    <SmallTitle>National Research Council Canada, Waterloo, ON 2020-2021</SmallTitle>
+                    <SmallTitle>National Research Council Canada, Waterloo, ON 2021-2022</SmallTitle>
                     <SmallTitleDesc>Undergraduate Research Assistant</SmallTitleDesc>
                     <CourseworkWrapper>
 
@@ -52,7 +44,7 @@ const Resume = () => {
 
                 <TextWrapper>
                     
-                    <SmallTitle>Steven Chang Tutoring, Waterloo, ON 2020-2021</SmallTitle>
+                    <SmallTitle>Steven Chang Tutoring, Waterloo, ON 2020-2022</SmallTitle>
                     <SmallTitleDesc>Founder</SmallTitleDesc>
                     <CourseworkWrapper>
 
@@ -90,7 +82,34 @@ const Resume = () => {
                         <CourseworkItem>Trained new representatives and lead sales workshops for both new and seasoned representatives</CourseworkItem>
 
                     </CourseworkWrapper>
-                </TextWrapper>          
+                </TextWrapper> 
+
+
+                <TextWrapper>
+                    <Headline>Education</Headline>
+                    <SmallTitle>Bachelors - University of Waterloo, Waterloo, ON 2017-2022</SmallTitle>
+                    <SmallTitleDesc>Major: Computational Mathematics, Statistics</SmallTitleDesc>
+                    <SmallTitleDesc>Minor: Computer Science</SmallTitleDesc>
+                    <SmallTitleDesc>Relevant Coursework:</SmallTitleDesc>
+                    <CourseworkWrapper>
+
+                        <CourseworkItem>Designing Functional Programs</CourseworkItem>
+                        <CourseworkItem>Algorithm Design and Data Abstraction</CourseworkItem>
+                        <CourseworkItem>Logic and Computation</CourseworkItem>
+                        <CourseworkItem>Object Oriented Software Development</CourseworkItem>
+                        <CourseworkItem>Data Types and Structures</CourseworkItem>
+                        <CourseworkItem>Databases</CourseworkItem>
+                        <CourseworkItem>Symbolic Computation</CourseworkItem>
+                        <CourseworkItem>Applied Linear Models</CourseworkItem>
+                        <CourseworkItem>Sampling and Experimental Design</CourseworkItem>
+                        <CourseworkItem>Forecasting with Time Series</CourseworkItem>
+                        <CourseworkItem>Computational Methods for Differential Equations</CourseworkItem>
+                        <CourseworkItem>Quantum Information Processing</CourseworkItem>
+                        <CourseworkItem>Numeric Computation for Financial Modelling</CourseworkItem>
+
+                    </CourseworkWrapper>
+                </TextWrapper>
+
 
             </ResumeWrapper>
         </ResumeContainer>

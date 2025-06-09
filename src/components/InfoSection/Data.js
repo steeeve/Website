@@ -3,6 +3,7 @@ import proj1 from '../../images/cs476.jpg';
 import proj2 from '../../images/Stat331.jpg';
 import chessproj from '../../images/cs246.jpg';
 import greg from '../../images/excelgreg.jpg';
+import messyWriting from '../../images/messywriting3.jpg';
 
 export const homeObjOne = {
     id: 'about',
@@ -11,12 +12,31 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'Hello world!',
     headline: '',
-    description: 'im a student and developer who likes to skateboard and catch fish!',
+    description: 'im a developer who likes to ski-tour, skateboard and catch fish!',
     showButt: true,
     buttonLabel: 'Some more about me!',
     imgStart: true,
     img: me2,
     alt: 'Me',
+    dark: true,
+    primary: true,
+    darkText: true
+};
+
+export const ProjectObjPaper = {
+    id: 'projects',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Improving Accuracy and Explainablity of Online Handwriting Recognition',
+    headline: 'URA - University of Waterloo',
+    description: 'As an undergraduate research assistant, designed feature selection and transformation pipelines for the OnHW-chars dataset. Spearheadeded the use of basic ML models on the dataset, and assisted in the development and implementation of some DL models.',
+    buttonLabel: '',
+    showButt: false,
+    showNavButt: true,
+    imgStart: false,
+    img: messyWriting,
+    alt: 'projs',
     dark: true,
     primary: true,
     darkText: true
