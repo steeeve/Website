@@ -62,7 +62,6 @@ const Resume = () => {
                     <CourseworkWrapper>
 
                         <CourseworkItem>Interviewed and trained new Sensei's</CourseworkItem>
-                        <CourseworkItem>Created and lead a Python curriculum using Pygame</CourseworkItem>
                         <CourseworkItem>Introduced kids to various object-oriented programming topics in an understandable manner</CourseworkItem>
                         <CourseworkItem>Helped kids understand debug prompts and errors within their code, leading to a deeper and more meaningful understanding</CourseworkItem>
                         <CourseworkItem>Introduced kids on their first day, and created a fun and inclusive environment with my enthusiam</CourseworkItem>
