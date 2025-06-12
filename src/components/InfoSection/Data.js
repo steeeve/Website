@@ -1,4 +1,4 @@
-import me2 from '../../images/me2.jpg';
+import me3 from '../../images/me3.jpg';
 import proj1 from '../../images/cs476.jpg';
 import proj2 from '../../images/Stat331.jpg';
 import chessproj from '../../images/cs246.jpg';
@@ -16,7 +16,7 @@ export const homeObjOne = {
     showButt: true,
     buttonLabel: 'Some more about me!',
     imgStart: true,
-    img: me2,
+    img: me3,
     alt: 'Me',
     dark: true,
     primary: true,

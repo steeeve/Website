@@ -9,7 +9,7 @@ import { homeObjOne } from '../components/InfoSection/Data';
 import Resume from '../components/Resume';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
-import Fun  from '../components/VideoJS';
+//import Fun  from '../components/VideoJS';
 import Fun2025 from '../components/VideoPlayer';
 
 
@@ -30,7 +30,6 @@ const Home = () => {
             <InfoSection {...homeObjOne}/>
             <Resume />
             <Projects />
-            <Fun />
             <Fun2025 />
             <Footer />
         </div>

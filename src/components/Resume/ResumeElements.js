@@ -7,6 +7,7 @@ export const ResumeContainer = styled.div`
     justify content: center;
     align-items: center;
     background: #f1f1f1;
+    padding-top: 150px;
 `;
 
 
