@@ -10,6 +10,7 @@ import Resume from '../components/Resume';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Fun  from '../components/VideoJS';
+import Fun2025 from '../components/VideoPlayer';
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
             <Resume />
             <Projects />
             <Fun />
+            <Fun2025 />
             <Footer />
         </div>
     );
