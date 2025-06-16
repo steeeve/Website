@@ -44,11 +44,12 @@ const Resume = () => {
 
                 <TextWrapper>
                     
-                    <SmallTitle>Steven Chang Tutoring, Waterloo, ON 2020-2022</SmallTitle>
+                    <SmallTitle>Steven Chang Tutoring, Calgary, AB 2020-2025</SmallTitle>
                     <SmallTitleDesc>Founder</SmallTitleDesc>
                     <CourseworkWrapper>
 
                         <CourseworkItem>Developed a proprietary curriculum using Python and Pygame which introduces students to Python</CourseworkItem>
+                        <CourseworkItem>Also assisted students in their own coursework, helping numerous students achieve their goals</CourseworkItem>
                         <CourseworkItem>Introduced higher level concepts such as class inheritance in an easy to digest manner</CourseworkItem>
                         <CourseworkItem>Created fizzbuzz style homework questions to enrich learning</CourseworkItem>
 
