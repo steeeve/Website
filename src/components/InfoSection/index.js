@@ -29,7 +29,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 
 
                                 <BtnWrap showButt = {showNavButt ? 1 : 0}>
-                                <a href="https://arxiv.org/abs/2209.09102">
+                                <a href="https://link.springer.com/article/10.1007/s10032-023-00456-5">
                                     <CustomButton>See Paper</CustomButton>
                                 </a>
                                 </BtnWrap>

@@ -30,7 +30,7 @@ export const ProjectObjPaper = {
     lightTextDesc: false,
     topLine: 'Improving Accuracy and Explainablity of Online Handwriting Recognition',
     headline: 'URA - University of Waterloo',
-    description: 'As an undergraduate research assistant, designed feature selection and transformation pipelines for the OnHW-chars dataset. Spearheadeded the use of basic ML models on the dataset, and assisted in the development and implementation of some DL models.',
+    description: 'As an undergraduate research assistant, spearheaded the use of basic ML models in combination with new cutting edge feature selection algorithms on the OnHW-chars dataset. Also assisted in the development and implementation of some Deep Learning models. Published in the IJDAR (International Journal on Document Analysis and Recognition)',
     buttonLabel: '',
     showButt: false,
     showNavButt: true,
