@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#77c9ff' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#1ad688' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -80,7 +80,7 @@ export const NavItem = styled.li`
 
     &:hover {
         transition: all 0.5s ease-in-out;
-        background: ${({scrollNav}) => (scrollNav ? '#bfbfbf' : 'transparent')};
+        background: ${({scrollNav}) => (scrollNav ? '#04b86d' : 'transparent')};
     }
 `;
 
