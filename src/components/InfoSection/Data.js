@@ -4,6 +4,7 @@ import proj2 from '../../images/Stat331.jpg';
 import chessproj from '../../images/cs246.jpg';
 import greg from '../../images/excelgreg.jpg';
 import messyWriting from '../../images/messywriting3.jpg';
+import skitour from '../../images/skitour.jpg';
 
 export const homeObjOne = {
     id: 'about',
@@ -15,9 +16,31 @@ export const homeObjOne = {
     description: 'im a developer who likes to ski-tour, skateboard and catch fish!',
     showButt: true,
     buttonLabel: 'Some more about me!',
+    buttonText: '',
     imgStart: true,
     img: me3,
     alt: 'Me',
+    dark: true,
+    primary: true,
+    darkText: true
+};
+
+export const ProjectObjSkiTour = {
+    id: 'projects',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'TourTogether.ca',
+    headline: 'Ski Tour Finder',
+    description: 'Locate your next objective, make a group or find an existing one, and get out there. Dont go out alone, Tour Together! Actively under development',
+    buttonLabel: '',
+    showButt: false,
+    buttonText: 'To Website',
+    buttonLink: 'https://www.tourtogether.ca',
+    showNavButt: true,
+    imgStart: true,
+    img: skitour,
+    alt: 'a website to connect skiing partners',
     dark: true,
     primary: true,
     darkText: true
@@ -33,6 +56,8 @@ export const ProjectObjPaper = {
     description: 'As an undergraduate research assistant, spearheaded the use of basic ML models in combination with new cutting edge feature selection algorithms on the OnHW-chars dataset. Also assisted in the development and implementation of some Deep Learning models. Published in the IJDAR (International Journal on Document Analysis and Recognition)',
     buttonLabel: '',
     showButt: false,
+    buttonText: 'See Paper',
+    buttonLink: 'https://link.springer.com/article/10.1007/s10032-023-00456-5',
     showNavButt: true,
     imgStart: false,
     img: messyWriting,
@@ -52,6 +77,7 @@ export const ProjectObjOne = {
     description: 'Priced options under various black-scholes models, methods used include pricing according to a binomial lattice, Monte Carlo Simulation, and discretized time-stepping methods for solving differential equations. Also calculated hedging portfolios for the option writer, as well as selecting the optimal portfolio.',
     buttonLabel: '',
     showButt: false,
+    buttonText: '',
     imgStart: true,
     img: proj1,
     alt: 'projs',
@@ -70,6 +96,7 @@ export const ProjectObjTwo = {
     description: 'Given a large real estate dataset of houses sold in the past years, constructed a regression model using an automatic algorithm. Model checking and diagnostics found that a transformation on our explanatory variable resulted a better plot of our residuals, giving us a more homeoscedastic model.',
     buttonLabel: '',
     showButt: false,
+    buttonText: '',
     imgStart: true,
     img: proj2,
     alt: 'projs',
@@ -88,6 +115,7 @@ export const ProjectObjThree = {
     description: 'Chess with an added call of duty chess gamemode! Includes kill streak messages and rewards, first blood. Implemented using Model View Controller design pattern, specific class relationships were depicted with a UML diagram. All chess functionalities are supported (Castling, Pawn promotion, En Passant, Detecting stalemate',
     buttonLabel: '',
     showButt: false,
+    buttonText: '',
     imgStart: false,
     img: chessproj,
     alt: 'projs',
@@ -106,6 +134,7 @@ export const ProjectObjFour = {
     description: 'Greg is a friend of mine who runs a sales and marketing team, based out of Calgary, AB. I helped out by automating the processing of sales data held in excel sheets, saving countless hours and streamlining the internal sales process. Openpyxl was used to read the spreadsheet, and PyInstaller exported the final script to a .exe format for day to day use.',
     buttonLabel: '',
     showButt: false,
+    buttonText: '',
     imgStart: false,
     img: greg,
     alt: 'projs',

@@ -94,7 +94,7 @@ export const Subtitle = styled.p`
 
 export const CustomButton = styled.button`
   padding: 12px 24px;
-  background-color: #007bff; /* Vibrant blue */
+  background-color: #01BF71; /* Vibrant blue */
   color: #ffffff; /* White text for contrast */
   border: none;
   border-radius: 6px; /* Rounded corners */
@@ -104,7 +104,7 @@ export const CustomButton = styled.button`
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   &:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #069c5d; /* Darker blue on hover */
     transform: translateY(-2px); /* Subtle lift effect */
   }
 

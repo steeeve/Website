@@ -15,7 +15,7 @@ const handleClick = () => {
 };
 */
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, showButt, showNavButt}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, showButt, showNavButt, buttonText, buttonLink}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -29,8 +29,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 
 
                                 <BtnWrap showButt = {showNavButt ? 1 : 0}>
-                                <a href="https://link.springer.com/article/10.1007/s10032-023-00456-5">
-                                    <CustomButton>See Paper</CustomButton>
+                                <a href={buttonLink}>
+                                    <CustomButton>{buttonText}</CustomButton>
                                 </a>
                                 </BtnWrap>
 
@@ -42,7 +42,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                primary={primary ? 1 : 0}
+                                primary={1}
                                 dark = {dark ? 1 : 0}
                                 >{buttonLabel}</Button>
                                 </BtnWrap>
